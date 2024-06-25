@@ -7,6 +7,7 @@ import About from './components/About';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
