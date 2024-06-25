@@ -24,13 +24,13 @@ function TextConverter() {
     return (
         <div style={{ textAlign: 'center', backgroundColor: "##ffe7e7"}}>
             <textarea value={inputText} style={{"width": "500px", "height": "100px", marginTop: "20px"}} onChange={handleTextChange} />
-            <br /> <br />
+            <br /> <br /> <br />
             <div style={{ display: 'flex', justifyContent: 'center' }}>
             <button onClick={handleConvertClick}>Convert to Uppercase</button>
             <button onClick={handleConvertClickL}>Convert to Lowercase</button>
             <button onClick={handlecleartext}>Clear Text</button>
             </div>
-            <br /> <br />
+            <br /> <br /> <br />
             <p>{convertedText}</p>
         </div>
     );
